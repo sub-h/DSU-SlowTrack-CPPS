@@ -1,3 +1,10 @@
 1. Why is the '#' used along with the header file?
 A. '#' tells the preprocessor to include the contents
 of the standard input/output header in the program.
+Edit: '#' is a pre-processor directive(or a command to the pre-preocessor). A pre-processor directive modifies the source file
+before handing it over to the compiler.
+Edit2: Examples of pre-processor directives:
+#include: for including header files
+#define: used for defining constants
+#ifdef: allows conditional compilation
+_FILE_: bult-in macros(fragment of code that is given a name
