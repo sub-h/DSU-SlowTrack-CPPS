@@ -8,3 +8,13 @@ Edit2: Examples of pre-processor directives:
 #define: used for defining constants
 #ifdef: allows conditional compilation
 _FILE_: bult-in macros(fragment of code that is given a name
+
+Fig. 1.1:
+Phase1:A C program is created using an editor such as vim and stored in the secondary storage device(hard disk).
+Phase 2: When the code is compiled, at first, the Pre-processor refers to the pre-preocessor directives and goes as per
+whatever pre-processor directives are mentioned(like '#include').
+Phase 3:The compiler just converts the C program code into object code.
+Phase 4:Linking of the object code to the standard libraries or any private library so that the code maybe executed more easily.
+Phase 5:The object code is 'Loaded' into the memory.
+Phase 6:The program is executed one instruction at a time. If there isn't any syntax or run-time error, the output will be
+given when the ./a.out command is typed and executed at the command prompt window.
