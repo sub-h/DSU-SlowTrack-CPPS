@@ -1,0 +1,8 @@
+memcpy() to copy one memory location to another location, and many more functions.
+Call by reference
+This method copies the address of an argument into the formal parameter.
+Inside the funtion, the address is used to access the actual argument used in the call. 
+This means that changes made to the parameter affect the argument.
+
+What do the mean by memory location?
+How in call by reference, does the changes made to the inside-function parameters affect the original arguments declared?
