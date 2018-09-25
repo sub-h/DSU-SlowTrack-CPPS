@@ -8,6 +8,7 @@ Edit2: Examples of pre-processor directives:
 #define: used for defining constants
 #ifdef: allows conditional compilation
 _FILE_: bult-in macros(fragment of code that is given a name
+Edit 3: '#' is the command to the processor to include header files or define the values of constants.
 
 Fig. 1.1:
 Phase1:A C program is created using an editor such as vim and stored in the secondary storage device(hard disk).
