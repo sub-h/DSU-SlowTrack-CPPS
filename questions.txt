@@ -19,3 +19,12 @@ Phase 4:Linking of the object code to the standard libraries or any private libr
 Phase 5:The object code is 'Loaded' into the memory.
 Phase 6:The program is executed one instruction at a time. If there isn't any syntax or run-time error, the output will be
 given when the ./a.out command is typed and executed at the command prompt window.
+
+Day2 questions and answers:
+What is a variable?
+A. A variable is a storage of memory which has a particular name. Unlike a constant, the value of a 
+variable can change depending on the program code.
+What is the data-type of a variable?
+A. The data-type of a variable is the particluar type of value a variable can hold.
+What are the basic types of a variable in C?
+A. integer(int),double,floating point,character(char), String,long<datatype>.
