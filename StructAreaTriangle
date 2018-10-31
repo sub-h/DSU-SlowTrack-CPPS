@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 struct triangle{
     float base;
     float height;
@@ -14,17 +13,16 @@ struct triangle input(){
     scanf("%f",&tri.height);
     return tri;
 }
-void display(){
-    struct triangle tri;
+void display(struct triangle tri){
     printf("The area of the triangle is: %f",tri.area);
 }
-void calculateArea(){
-    struct triangle tri;
+struct triangle calculateArea(struct triangle tri){
     tri.area=(tri.base*tri.height)*0.5;
+    return tri;
 }
 void main(){
     struct triangle tri;
-    input();
-    calculateArea();
-    display();
+    tri=input();
+    tri=calculateArea(tri);
+    display(tri);
 }
