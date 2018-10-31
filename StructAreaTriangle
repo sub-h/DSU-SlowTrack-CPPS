@@ -25,4 +25,5 @@ void main(){
     tri=input();
     tri=calculateArea(tri);
     display(tri);
+    getch();
 }
