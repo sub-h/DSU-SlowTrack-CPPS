@@ -1,3 +1,4 @@
+i). Using Call By Value:
 #include <stdio.h>
 #include <stdlib.h>
 struct triangle{
@@ -27,3 +28,4 @@ void main(){
     display(tri);
     getch();
 }
+ii). Using Call By Reference:
