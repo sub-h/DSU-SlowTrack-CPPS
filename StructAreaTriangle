@@ -60,3 +60,15 @@ void main(){
     display(&tri);
     getch();
 }
+Comments:
+The call by reference method of passing arguments to a function copies the address of an argument into the formal parameter.
+In call by value, a copy of actual arguments is passed to formal arguments of the called function and any change made to the formal arguments in the called function have no effect on the values of actual arguments in the calling function.
+
+In call by value, actual arguments will remain safe, they cannot be modified accidentally.
+
+In call by reference, the location (address) of actual arguments is passed to formal arguments of the called function. This means by accessing the addresses of actual arguments we can alter them within from the called function.
+
+In call by reference, alteration to actual arguments is possible within from called function; therefore the code must handle arguments carefully else you get unexpected results.
+C is strictly pass by value. It doesn’t support pass by reference.
+using the help of pointers C simulates ‘call by reference’ where we pass argument’s address explicitly
+C has strict call by value semantics, and does *not* support call by reference. Call by reference can be “simulated” by passing pointer to the variable 
