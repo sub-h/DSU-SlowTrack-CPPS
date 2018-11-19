@@ -16,7 +16,7 @@ struct triangle input(){
     return tri;
 }
 void display(struct triangle tri){
-    printf("The area of the triangle is: %f",tri.area);
+    printf("The area of the triangle is: %f\n",tri.area);
 }
 struct triangle calculateArea(struct triangle tri){
     tri.area=(tri.base*tri.height)*0.5;
