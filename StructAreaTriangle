@@ -31,3 +31,32 @@ void main(){
 }
 ii). Using Call By Reference:
 
+include <stdio.h>
+#include <stdlib.h>
+struct triangle{
+    float base;
+    float height;
+    float area;
+};
+struct triangle input(){
+    struct triangle tri;
+    printf("Enter the base of the triangle\n");
+    scanf("%f",&tri.base);
+    printf("Enter the height of the triangle\n");
+    scanf("%f",&tri.height);
+    return tri;
+}
+void display(struct triangle *tri){
+    printf("The area of the triangle is: %f\n",tri->area);
+}
+struct triangle calculateArea(struct triangle *tri){
+    tri->area=(tri->base*tri->height)*0.5;
+    return *tri;
+}
+void main(){
+    struct triangle tri;
+    tri=input();
+    tri=calculateArea(&tri);
+    display(&tri);
+    getch();
+}
