@@ -1,0 +1,18 @@
+28-1-2019
+#include<stdio.h>
+int input()
+{       
+        int numElement
+        printf("Enter the number of elements\n");
+        scanf("%d",&numElement);
+        return numElement;
+}       
+int compute(int i)
+{       
+        int arr[i];
+        for(int n=0;n<i;n++)
+        {
+                printf("Enter an integer\n");
+                scanf("%d",&arr[n]);
+        }
+}
