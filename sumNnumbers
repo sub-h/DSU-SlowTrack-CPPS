@@ -16,3 +16,9 @@ int compute(int i)
                 scanf("%d",&arr[n]);
         }
 }
+
+        {
+                printf("Enter an integer\n");
+                scanf("%d",&arr[n]);
+        }
+}
