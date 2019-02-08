@@ -1,24 +1,24 @@
-28-1-2019
-#include<stdio.h>
-int input()
+int number()
+{
+        int n;
+        printf("Enter the number of integers to be added\n");
+        scanf("%d",&n);
+        return n;
+}
+void input(int n,int arr[n])
 {       
-        int numElement
-        printf("Enter the number of elements\n");
-        scanf("%d",&numElement);
-        return numElement;
-}       
-int compute(int i)
-{       
-        int arr[i];
-        for(int n=0;n<i;n++)
+        printf("Enter the integers to be added\n");
+        for(int i=0;i<n;i++)
         {
-                printf("Enter an integer\n");
-                scanf("%d",&arr[n]);
+                scanf("%d",&arr[i]);
         }
 }
-
-        {
-                printf("Enter an integer\n");
-                scanf("%d",&arr[n]);
-        }
+int compute(int n,nt arr[n])
+{
+         int sum=0;
+         for(int i=0;i<n;i++)
+         {
+                 sum+=arr[i];
+         }                
 }
+int display()
