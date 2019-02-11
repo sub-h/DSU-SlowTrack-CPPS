@@ -44,6 +44,7 @@ int add(int size,int ary[size])
 int output(int sum)
 {
         printf("The sum is :%d",sum);
+        return sum;
 }
 int main()
 {
