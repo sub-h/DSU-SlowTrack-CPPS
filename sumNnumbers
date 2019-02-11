@@ -22,3 +22,39 @@ int compute(int n,nt arr[n])
          }                
 }
 int display()
+edit 2:
+#include<stdio.h>
+int input()
+{
+        int size;
+        printf("How many numbers do you want to add?");
+        scanf("%d",&size);
+        return size;
+}
+
+int add(int size,int ary[size])
+{
+        int sum=0;
+        for(int i=0;i<size;i++)
+        {
+                sum=sum+ary[i];
+        }
+        return sum;
+}
+int output(int sum)
+{
+        printf("The sum is :%d",sum);
+}
+int main()
+{
+        int size,sum;
+        size=input();
+        int ary[size];
+        for(int i=0;i<size;i++)
+        {
+                printf("Enter number %d :",i+1);
+                scanf("%d",&ary[i]);
+        }
+        sum=add(size,ary);
+        output(sum);
+}
