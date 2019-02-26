@@ -59,3 +59,41 @@ int main()
         sum=add(size,ary);
         output(sum);
 }
+
+edit 2:
+#include<stdio.h>
+int input()
+{
+        int size;
+        printf("How many numbers do you want to add?\n");
+        scanf("%d",&size);
+        return size;
+}
+int add(int size,int arr[size])
+{
+        int sum=0;
+        for(int i=0;i<size;i++)
+        {
+                sum=sum+arr[i];
+        }
+        return sum;
+}
+void output(int sum)
+{
+        printf("The sum is :%d",sum);
+}
+int main()
+{
+int size;
+        size=input();
+        int ary[size];
+        for(int i=0;i<size;i++)
+        {
+                printf("Enter number %d :",i+1);
+                scanf("%d",&ary[i]);
+        }
+        int sum=add(size,ary);
+        output(sum);
+}
+                                                              34,1          Bot
+
