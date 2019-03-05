@@ -86,13 +86,13 @@ int main()
 {
 int size;
         size=input();
-        int ary[size];
+        int arr[size];
         for(int i=0;i<size;i++)
         {
                 printf("Enter number %d :",i+1);
-                scanf("%d",&ary[i]);
+                scanf("%d",&arr[i]);
         }
-        int sum=add(size,ary);
+        int sum=add(size,arr);
         output(sum);
 }
                                                               34,1          Bot
