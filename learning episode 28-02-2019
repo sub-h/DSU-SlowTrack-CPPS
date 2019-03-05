@@ -1,3 +1,4 @@
+Case 1: Pass by value
 struct fraction {
         int num;
         int den;
@@ -16,6 +17,7 @@ int main()
         input(&f1);
         input(&f2);
 }
+Case 2: pass by reference
 
 struct fraction {
         int num;
@@ -35,3 +37,6 @@ int main()
         input(f1);
         input(f2);
 }
+
+/*In the above exmples, when pass by value is used, the initial values of n1 and n2 DO NOT change when passed to the main function
+the initial values of n1 and n2 change after calling in main function when pass by reference is used.*/
